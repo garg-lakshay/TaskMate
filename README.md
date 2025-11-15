@@ -108,5 +108,7 @@ Assumptions
  - UI kept simple for readability and assignment requirements
 
  GitHub Repository:
- 
+
+ https://github.com/garg-lakshay/TaskMate
+
 
