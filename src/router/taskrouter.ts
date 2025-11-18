@@ -14,6 +14,7 @@ router2.post("/", authmiddleware, async (req: Request, res: Response) => {
       title,
       description,
     });
+    
 
     res.json({ message: "Todo created", todo });
   } catch (error) {
