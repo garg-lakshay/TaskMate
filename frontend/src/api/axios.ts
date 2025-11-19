@@ -1,10 +1,10 @@
 import axios from "axios";
 import { useAuthStore } from "../store/auth";
 
-const API_BASE_URL = process.env.API_BASE_URL || "";
+// const API_BASE_URL = process.env.API_BASE_URL || "";
 // Create axios instance
 const api = axios.create({
-  baseURL: `${API_BASE_URL}/api`, // your backend base URL
+  baseURL: `${"http://localhost:3001"}/api`, // your backend base URL
 });
 
 // Attach token to every request automatically
