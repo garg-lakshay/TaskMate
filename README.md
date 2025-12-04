@@ -23,6 +23,7 @@ The database is hosted on **MongoDB Atlas**, and user authentication is handled 
 - Mark todos as complete/incomplete  
 - List all todos for the logged-in user  
 
+
 ### **Other Implementations**
 - React Query used for all API calls
 - Zustand used for global state 
