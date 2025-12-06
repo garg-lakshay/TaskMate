@@ -32,6 +32,7 @@ router2.get("/", authmiddleware, async (req: Request, res: Response) => {
   }
 });
 
+
 router2.put("/:id", authmiddleware, async (req: Request, res: Response) => {
   try {
     const { title, description } = req.body;
